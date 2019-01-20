@@ -1,0 +1,129 @@
+
+/*links*/
+
+ul {width: 1200px;
+    padding: 14px;
+    margin: 0px auto 0px auto;
+    border-bottom: 1px solid #000;
+    text-align: center;
+   
+    list-style-type:none;}
+
+
+li {display:inline;
+    margin: 0px 5px;
+    height: 14px;
+    padding: 0 9px;}
+
+    /*video*/
+/*video link- https://www.youtube.com/watch?v=h3IdEqpjMvQ*/
+
+.video{ flex:auto;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    column-fill: auto;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    flex-direction: row;
+    
+  
+}
+
+/*navigation*/
+nav{
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    float: initial;
+    flex: auto;
+    background-color: aquamarine;
+
+}
+          
+/*This shows the text and their fonts, alignment and size.*/
+
+/*heading*/
+
+h1{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+/*text*/
+
+h2{text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+font-weight: normal;}
+
+h5{text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+font-weight:bold}
+
+
+/*mini titles*/
+
+h3 {font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color:rgb(0, 0, 0)}
+
+h4 {font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color:rgb(0, 0, 0)}
+
+a {color: #000000;
+   padding: 5px 17px 4px 15px;}
+
+/*table*/
+/*thsi section shows the deisgn of the newpaper layout and how it iis structured */
+.TableColumn {
+    
+    flex-direction: row;
+    column-width: 198px;   
+    column-count: 3;
+    padding: 15px;   
+    column-fill: auto;
+    column-rule: solid;
+    column-gap: 55px; 
+    }
+
+/*body*/ 
+
+body {
+    margin: 0;
+    background: rgb(133, 130, 130);
+    display: flex;
+    flex-direction: column;
+    flex: auto;  
+    line-height: auto;
+    text-align: center;}
+
+
+
+/* media Query */
+
+
+@media (max-width: 721px)
+{
+    nav{
+        margin: 5px;
+        font-size: small;
+    }
+}
+@media (max-width: 851px) 
+{
+    div.video{ font-size: small;}
+}
+
+@media(max-width: 1061px)
+{
+    nav,p{font-size: small;}
+}
+
+
